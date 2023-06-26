@@ -12,21 +12,21 @@
     <!-- <button> -> Botão -->
         <form>
             Nome:
-            <input type="text"> <br>
+            <input type="text" placeholder="Digite seu nome:" nome="nome"> <br>
             E-mail:
-            <input type="email" placeholder="ketelyn@gmail.com"> <br>
+            <input type="email" placeholder="ketelyn@gmail.com" name="email"> <br>
             Senha:
-            <input type="password"> <br>
+            <input type="password" name="senha"> <br>
             Idade:
-            <input type="number"> <br>
+            <input type="number" name="Idade"> <br>
             Horário de Registro:
-            <input type="time" value="15:00" disabled>
+            <input type="time" value="15:00" name="horario" disabled>
             Data de nascimento:
-            <input type="date"> <br>
+            <input type="date" name="datnascimento"> <br>
             Telefone:
-            <input type="tel"><br>
+            <input type="tel" name="telefone"><br>
             URL da foto:
-            <input type="url"> <br>
+            <input type="url" name="foto"> <br>
             Frente do RG:
             <input type="file" accept=".png, jpg" multiple> <br>
             Escolha sua cor favorita:
@@ -37,14 +37,14 @@
             Aceito os termos de uso:
             <input type="checkbox"> <br> 
             Nivel de inglês: 1 <input type="range" min="1" max="5" step="0.5"> 5<br>
-            <select>
+            <select name="estado">
                 <option disabled selected> Seleciona um Estado</option>
                 <option>Ceará</option>
                 <option>São Paulo</option>
                 <option> Rio de Janeiro</option>
             </select> <br>
-            Fale um pouco sobre você:
-            <textarea cols="30" rows="3" placeholder="Digite sua mensagem aqui"></textarea>
+            Fale um pouco sobre você: <br>
+            <textarea cols="30" rows="3" placeholder="Digite sua mensagem aqui"></textarea> <br>
              <button>Enviar</button>
 
              <!-- volue -> valor do campo -->
